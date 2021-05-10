@@ -1,0 +1,11 @@
+[package]
+edition = "2018"
+name = "diffie-hellman"
+version = "0.1.0"
+
+[dependencies]
+
+[features]
+default = ["big-primes"]
+big-primes = []
+slow-modular-exponentiate = []
